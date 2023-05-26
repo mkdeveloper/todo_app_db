@@ -10,7 +10,7 @@ export default async function Home() {
   const todos = await getTodos();
   return (
     <div className="flex w-full h-screen justify-center items-center">
-      <div className="flex flex-col items-center max-w-4xl gap-10">
+      <div className="flex flex-col items-center max-w-4xl pb-5">
         <h1>Todo App</h1>
         {todos.map((todo) => (
           <div
